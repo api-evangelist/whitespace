@@ -1,0 +1,23 @@
+# Whitespace
+
+> Whitespace is an AI operating system for wholesale distributors (Y Combinator S26, London). It connects to a distributor's existing ERP and business systems and deploys self-improving AI agents that automate demand forecasting, inventory replenishment, order entry, quote generation, customer query responses, and accounts payable/receivable. As an early-stage company it ships a product but publishes no public API, developer documentation or SDK.
+
+## Company
+- [Whitespace website](https://whitespacehq.ai/): Product overview, customers, industries, platform, and FAQ.
+- [Book a call](https://cal.com/atung/30min): Schedule a demo with the founders.
+
+## Product
+- Demand forecasting with seasonality and trend analysis.
+- Inventory replenishment recommendations with lead-time optimization.
+- Inventory analytics to identify slow-moving stock.
+- AI agents for order entry, quote generation, customer query responses, accounts payable/receivable, procurement, and executive reporting.
+
+## Integrations
+- ERPs and business systems: SAP, NetSuite, Epicor, Infor, Microsoft Dynamics, Sage, Salesforce, HubSpot, QuickBooks, Gmail, Outlook.
+
+## Legal
+- [Privacy Policy](https://whitespacehq.ai/privacy.html)
+- [Terms of Service](https://whitespacehq.ai/terms.html)
+
+## Notes
+- No public API, OpenAPI/AsyncAPI specification, SDK, CLI, MCP server, or `.well-known` discovery surface was found as of 2026-07-21.

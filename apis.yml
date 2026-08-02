@@ -1,7 +1,29 @@
 aid: whitespace
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/whitespace.png
 name: Whitespace
-description: Whitespace is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Whitespace is an AI operating system for wholesale distributors, based in
+  London and part of Y Combinator's Summer 2026 batch. The platform connects to
+  a distributor's existing business systems (ERPs such as SAP, NetSuite, Epicor,
+  Infor, Microsoft Dynamics and Sage, plus Salesforce, HubSpot, QuickBooks,
+  Gmail and Outlook) to build a model of operations, then deploys self-improving
+  AI agents that automate demand forecasting, inventory replenishment, order
+  entry, quote generation, customer query responses, and accounts payable and
+  receivable. It targets sectors including industrial supplies, electrical,
+  plumbing, HVAC, building materials, foodservice, consumer goods and textiles.
+  Founded by Alex Tung and Leon Yao. As an early-stage company it currently
+  ships a product but publishes no public API, developer documentation or SDK.
 url: https://raw.githubusercontent.com/api-evangelist/whitespace/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- SaaS
+- B2B
+- Supply Chain
+- Wholesale Distribution
+- ERP
+- Inventory
+- AI Agents
 apis: []
+common:
+- type: DomainSecurity
+  url: security/whitespace-domain-security.yml
+- type: Website
+  url: https://whitespacehq.ai/
+- type: PrivacyPolicy
+  url: https://whitespacehq.ai/privacy.html
+- type: TermsOfService
+  url: https://whitespacehq.ai/terms.html
+- type: LLMsTxt
+  url: llms/whitespace-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
